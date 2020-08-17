@@ -1,9 +1,21 @@
 {
-  "name": "dmc5-theme",
-  "version": "1.0.0",
-  "description": "my first vs code theme",
-  "main": "index.js",
-  "repository": "https://github.com/Rafonel/dmc5-theme.git",
-  "author": "rafonel",
-  "license": "MIT"
+    "name": "dmc-theme",
+    "displayName": "Devil May Cry Theme",
+    "description": "The Devil May Cry theme on vs code inspired in DMC5 and @oguhpereira spotify theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Devil May Cry Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Devil May Cry Theme-color-theme.json"
+            }
+        ]
+    }
 }

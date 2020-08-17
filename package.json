@@ -1,0 +1,9 @@
+{
+  "name": "dmc5-theme",
+  "version": "1.0.0",
+  "description": "my first vs code theme",
+  "main": "index.js",
+  "repository": "https://github.com/Rafonel/dmc5-theme.git",
+  "author": "rafonel",
+  "license": "MIT"
+}
